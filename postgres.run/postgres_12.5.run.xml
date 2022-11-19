@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="postgres_12.5" type="docker-deploy" factoryName="docker-image" singleton="false" server-name="Docker">
+    <deployment type="docker-image">
+      <settings>
+        <option name="imageTag" value="postgres:12.5" />
+        <option name="containerName" value="postgres_12.5_container" />
+        <option name="commandLineOptions" value="POSTGRES_HOST_AUTH_METHOD=trust" />
+        <option name="showCommandPreview" value="true" />
+      </settings>
+    </deployment>
+    <method v="2" />
+  </configuration>
+</component>
